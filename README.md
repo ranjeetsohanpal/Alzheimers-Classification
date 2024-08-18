@@ -18,7 +18,7 @@ We can also observe it from the Pearson Correlation Plot for Diagnosis.
 ![Pearson Correlation with Diagnosis](/images/pearson.png)   
 
 #### Models And Evaluation :
-First of all the data was split into train and test data to build the model. Since this is askewed classification problem, metrics such as confusion matrix, precision and recall are used to evaluate the models. This project involves predicting the diagnosis, so the model must be able to identify the actual positive cases as much as possible.Therefore, the aim is to have the precision of the model as high as possible since false negatives imply missed patients which actually require diagnosis but missed by the model.
+First of all the data was split into train and test data to build the model. Since this is a skewed classification problem, metrics such as confusion matrix, precision and recall are used to evaluate the models. This project involves predicting the diagnosis, so the model must be able to identify the actual positive cases as much as possible.Therefore, the aim is to have the precision of the model as high as possible since false negatives imply missed patients which actually require diagnosis but missed by the model.
 
 **Precision** = $\\frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}\$
 
